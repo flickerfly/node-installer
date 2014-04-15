@@ -10,7 +10,6 @@ if [ "$NODE" = "" ] ; then
 	if [ $? -eq 0 ] ; then NODE=node; fi
 fi
 
-
 if [ "$NODE" = "" ]; then
 	echo "Error: cannot start keybase; no version of node or nodejs found"
 	exit 2
